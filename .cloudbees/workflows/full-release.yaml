@@ -338,7 +338,7 @@ jobs:
           application-name: hacker-ro-app
           environment-name: hacker-ro-qa
           flag-name: default.score
-          use-org-as-app: true
+          use-org-as-app: false
           flag-config: |
             enabled: true
             defaultValue: true
@@ -672,7 +672,7 @@ jobs:
           application-name: hacker-ro-app
           environment-name: hacker-ro-staging
           flag-name: default.score
-          use-org-as-app: true
+          use-org-as-app: false
           flag-config: |
             enabled: true
             defaultValue: true
@@ -1217,7 +1217,7 @@ jobs:
           application-name: hacker-ro-app
           environment-name: hacker-ro-prod
           flag-name: default.score
-          use-org-as-app: true
+          use-org-as-app: false
           flag-config: |
             enabled: true
             defaultValue:
